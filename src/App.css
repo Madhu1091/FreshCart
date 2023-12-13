@@ -1,0 +1,187 @@
+.cart {
+  display: flex;
+  align-items: center;
+}
+.freshcart {
+  font-size: 32px;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  background-color: aliceblue;
+  align-items: center;
+}
+
+.threeIcons {
+  display: flex;
+  gap: 10px;
+}
+.form {
+  display: flex;
+    gap: 20px;
+    flex-direction: column;
+ 
+}
+
+.form select {
+  width: 100% !important;
+  padding: 12px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+ 
+} 
+
+.form input {
+
+  width: 100%;
+  padding: 12px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+
+} 
+
+.freshcart {
+  font-size: 24px;
+}
+
+.threeIcons i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+
+
+
+.form-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transition: left 0.3s ease-in-out;
+}
+.form button.close-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.smallandmedium {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.into {
+  font-size: xx-large;
+}
+.largeScreensSelect {
+  width: 152px;
+    padding: 12px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.largeScreenSearch {
+  width: 200px;
+    padding: 12px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+.test {
+  display: flex;
+  gap: 20px;
+}
+
+/* YourComponent.css */
+
+/* Add any existing styles */
+
+/* Hide the bi-list span for screens larger than 992px */
+@media (min-width: 993px) {
+  .threeIcons .bi-list {
+      display: none;
+  }
+}
+
+@media (min-width:280px) and (max-width:1023px) {
+  .test {
+    display: none;
+  }
+}
+
+
+.logInPage {
+  display: flex;
+    background-color: aliceblue;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Add these styles to your existing styles */
+.my-form {
+  width: 80%; 
+  margin: auto;
+  padding: 20px;
+
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.signIn {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+.invalid-feedback {
+  color: red;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+.heading,.para {
+  text-align: center;
+}
+
+@media (min-width: 1023px) and (max-width: 2000px) {
+
+  .logInPage {
+    display: flex;
+
+  justify-content: space-evenly;
+      flex-direction: row ;
+  }
+
+}
